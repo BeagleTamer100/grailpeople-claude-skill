@@ -1,7 +1,7 @@
 # GrailPeople Shopping — Claude plugin
 
 Turns Claude into a beauty shopping advisor backed by [GrailPeople](https://grailpeople.com):
-7,000+ skincare, makeup, and hair products, each reviewed by real YouTube creators —
+11,000+ skincare, makeup, and hair products, each reviewed by real YouTube creators —
 dermatologists, estheticians, and makeup artists — with direct quotes, video timestamps, and
 creator credentials.
 
