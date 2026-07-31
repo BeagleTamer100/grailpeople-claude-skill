@@ -1,4 +1,4 @@
-# GrailPeople Beauty — Claude plugin
+# GrailPeople Shopping — Claude plugin
 
 Turns Claude into a beauty shopping advisor backed by [GrailPeople](https://grailpeople.com):
 7,000+ skincare, makeup, and hair products, each reviewed by real YouTube creators —
@@ -18,7 +18,7 @@ use it.
 ## Install
 
 ```
-/plugin install grailpeople-beauty
+/plugin install grailpeople-shopping
 ```
 
 See [Claude Code plugins](https://code.claude.com/docs/en/discover-plugins) for other install

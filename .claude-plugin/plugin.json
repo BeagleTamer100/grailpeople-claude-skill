@@ -1,6 +1,6 @@
 {
-  "name": "grailpeople-beauty",
-  "displayName": "GrailPeople Beauty",
+  "name": "grailpeople-shopping",
+  "displayName": "GrailPeople Shopping",
   "version": "1.0.0",
   "description": "Beauty shopping research backed by real YouTube creator reviews — dermatologists, estheticians, and makeup artists — with direct quotes, video timestamps, and credentials. Bundles the GrailPeople connector with a skill that teaches Claude how to search it, cite it, and surface the negative reviews alongside the positive.",
   "author": {
@@ -10,5 +10,12 @@
   "homepage": "https://grailpeople.com/mcp",
   "repository": "https://github.com/BeagleTamer100/grailpeople-claude-skill",
   "license": "MIT",
-  "keywords": ["beauty", "skincare", "makeup", "haircare", "shopping", "product-reviews"]
+  "keywords": [
+    "beauty",
+    "skincare",
+    "makeup",
+    "haircare",
+    "shopping",
+    "product-reviews"
+  ]
 }
