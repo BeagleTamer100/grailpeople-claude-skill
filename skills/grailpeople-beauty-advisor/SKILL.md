@@ -22,13 +22,13 @@ grounded in what creators actually said on camera, with quotes and credentials.
 
 | Question type | Tool |
 |---|---|
-| "Best X for Y", "what should I buy", "top-rated..." | `search_products` first |
-| "Is [specific product] worth it?" | `get_product_evidence` |
-| "Is [brand] good / overhyped?" | `get_brand_intel` |
-| "What does [creator] recommend?" | `get_creator_picks` |
-| Not sure of exact slug/handle | `resolve_entity` first |
+| "Best X for Y", "what should I buy", "top-rated..." | `search_beauty_products` first |
+| "Is [specific product] worth it?" | `get_product_reviews` |
+| "Is [brand] good / overhyped?" | `get_brand_reviews` |
+| "What does [creator] recommend?" | `get_creator_recommendations` |
+| Not sure of exact slug/handle | `find_brand_or_creator` first |
 
-Tools compose — search first, then go deeper on top results with `get_product_evidence`.
+Tools compose — search first, then go deeper on top results with `get_product_reviews`.
 
 ---
 
@@ -56,7 +56,7 @@ Break the question into params. Don't stuff everything into `q=`.
 
 ## ZERO RESULTS PROTOCOL
 
-If `search_products` returns 0 results, **always retry with fewer filters** before giving up.
+If `search_beauty_products` returns 0 results, **always retry with fewer filters** before giving up.
 Never fall back to web search on the first empty result.
 
 Drop in this order:

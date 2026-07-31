@@ -54,11 +54,11 @@ All five are read-only.
 
 | Tool | What it answers |
 |---|---|
-| `search_products` | "Best X for Y", product discovery |
-| `get_product_evidence` | "Is this specific product worth it?" |
-| `get_brand_intel` | "Is this brand good, or overhyped?" |
-| `get_creator_picks` | "What does this creator recommend?" |
-| `resolve_entity` | Messy brand or creator name → exact slug/handle |
+| `search_beauty_products` | "Best X for Y", product discovery |
+| `get_product_reviews` | "Is this specific product worth it?" |
+| `get_brand_reviews` | "Is this brand good, or overhyped?" |
+| `get_creator_recommendations` | "What does this creator recommend?" |
+| `find_brand_or_creator` | Messy brand or creator name → exact slug/handle |
 
 Full tool documentation: [grailpeople.com/mcp](https://grailpeople.com/mcp)
 
