@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "grailpeople": {
+      "type": "http",
+      "url": "https://grailpeople.com/api/mcp"
+    }
+  }
+}
